@@ -1,0 +1,22 @@
+<div class='formulaire' style="text-align: center">
+<h1>Bienvenue citoyen du monde</h1>
+
+  <h3>Choisis une localisation</h3> 
+
+	  <form action = "/" method = "post">
+	  	<input type="hidden" name="authenticity_token">
+	    Latitude: <input id="latitude" type="text" name = "latitude" value = ""/>
+	    <br />
+	    Longitude: <input id="longitude" type="text" name = "longitude" value = "" />
+	    <br />
+	    Ton message: <input id="message" type = "text" name = "message" value = ""/>
+	    <br /><br />
+	    <button type="button" class="btn btn-danger btn-md" onclick="initMap()">Let's check it out BAE</button>
+	  </form><br />
+
+	  </div>
+
+<div id="map"></div>
+
+
+

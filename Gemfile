@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 # authentification
 #gem 'devise'
 #gem 'pundit'
+gem 'dotenv-rails'
 
 gem 'rails',          '5.2.0'
 gem 'bcrypt',         '3.1.11'

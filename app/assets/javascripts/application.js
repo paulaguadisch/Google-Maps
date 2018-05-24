@@ -14,3 +14,20 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+
+function initMap() {
+	var latitude = parseFloat(document.getElementById("latitude").value);
+	var longitude = parseFloat(document.getElementById("longitude").value);
+	var message = document.getElementById('message').value;
+	var uluru = {lat: latitude, lng: longitude};
+	var map = new google.maps.Map(document.getElementById('map'), {
+	  zoom: 4,
+	  center: uluru
+	});
+	var marker = new google.maps.Marker({
+	  position: uluru,
+	  map: map,
+	  title: message,
+	});
+}
