@@ -1,24 +1,14 @@
-# README
+# Projet Google Maps de la team courgette
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Objectif : créer une app rails avec l'API google maps. 
 
-Things you may want to cover:
+Entrer une latitude et une longitude avec un message et la map s'affichera. 
 
-* Ruby version
+Le message ne sera displayed qu'une fois que vous mettrez votre curseur dessus.
 
-* System dependencies
+# Switch
 
-* Configuration
+Air projet comme on les aime 
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+En vous souhaitant une douce et agréable correction !
